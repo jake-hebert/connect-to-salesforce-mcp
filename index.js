@@ -68,8 +68,8 @@ async function loginToSalesforce() {
     // Suppress stdout to avoid CLI warnings interfering with MCP protocol
     const command =
       process.platform === "win32"
-        ? `sf org login web --instance-url ${INSTANCE_URL} --alias ${ORG_ALIAS} > nul 2>&1`
-        : `sf org login web --instance-url ${INSTANCE_URL} --alias ${ORG_ALIAS} > /dev/null 2>&1`;
+        ? `sf org login web --instance-url ${INSTANCE_URL} --alias ${ORG_ALIAS} --set-default > nul 2>&1`
+        : `sf org login web --instance-url ${INSTANCE_URL} --alias ${ORG_ALIAS} --set-default > /dev/null 2>&1`;
 
     console.error("DEBUG: Running command:", command);
 
