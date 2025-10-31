@@ -1,5 +1,5 @@
 {
-    "name": "@digitalRupix/connect-to-salesforce-mcp",
+    "name": "@digitalrupix/connect-to-salesforce-mcp",
     "version": "1.0.0",
     "description": "Setup wizard for Salesforce MCP connection",
     "main": "index.js",
@@ -29,6 +29,6 @@
         "cli",
         "model-context-protocol"
     ],
-    "author": "Jake Hebert (digitalRupix)",
+    "author": "Jake Hebert (digitalrupix)",
     "license": "MIT"
 }

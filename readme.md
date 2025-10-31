@@ -30,7 +30,7 @@ No technical knowledge required - users simply ask Claude to "Help me connect to
 1. **Install the package globally (optional)**:
 
 ```bash
-   npm install -g @digitalRupix/connect-to-salesforce-mcp
+   npm install -g @digitalrupix/connect-to-salesforce-mcp
 ```
 
 2. **Deploy the Claude Desktop configuration** to users' machines at:
@@ -46,7 +46,7 @@ No technical knowledge required - users simply ask Claude to "Help me connect to
   "mcpServers": {
     "connect-to-salesforce": {
       "command": "npx",
-      "args": ["-y", "@digitalRupix/connect-to-salesforce-mcp"],
+      "args": ["-y", "@digitalrupix/connect-to-salesforce-mcp"],
       "env": {
         "SALESFORCE_INSTANCE_URL": "https://your-org.my.salesforce.com",
         "SALESFORCE_ORG_ALIAS": "mcp-server-connect"

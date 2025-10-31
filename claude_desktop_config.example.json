@@ -4,7 +4,7 @@
             "command": "npx",
             "args": [
                 "-y",
-                "@digitalRupix/connect-to-salesforce-mcp"
+                "@digitalrupix/connect-to-salesforce-mcp"
             ],
             "env": {
                 "SALESFORCE_INSTANCE_URL": "https://your-org.my.salesforce.com",
