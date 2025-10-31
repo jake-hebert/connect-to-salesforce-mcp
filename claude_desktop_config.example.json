@@ -1,0 +1,26 @@
+{
+    "mcpServers": {
+        "connect-to-salesforce": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@digitalRupix/connect-to-salesforce-mcp"
+            ],
+            "env": {
+                "SALESFORCE_INSTANCE_URL": "https://your-org.my.salesforce.com",
+                "SALESFORCE_ORG_ALIAS": "mcp-server-connect"
+            }
+        },
+        "salesforce": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@tsmztech/mcp-server-salesforce"
+            ],
+            "env": {
+                "SALESFORCE_CONNECTION_TYPE": "Salesforce_CLI",
+                "SALESFORCE_INSTANCE_URL": "https://your-org.my.salesforce.com"
+            }
+        }
+    }
+}

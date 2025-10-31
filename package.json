@@ -1,0 +1,16 @@
+{
+    "name": "@digitalRupix/connect-to-salesforce-mcp",
+    "version": "1.0.0",
+    "description": "Setup wizard for Salesforce MCP connection",
+    "main": "index.js",
+    "type": "module",
+    "bin": {
+        "connect-to-salesforce-mcp": "./index.js"
+    },
+    "dependencies": {
+        "@modelcontextprotocol/sdk": "^0.5.0"
+    },
+    "engines": {
+        "node": ">=18.0.0"
+    }
+}
