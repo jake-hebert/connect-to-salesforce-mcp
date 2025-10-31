@@ -199,7 +199,7 @@ On some systems, you may need administrator privileges:
 
 ```bash
 # Clone the repository
-git clone <your-repo-url>
+git clone https://github.com/jake-hebert/connect-to-salesforce-mcp.git
 cd connect-to-salesforce-mcp
 
 # Install dependencies
@@ -239,7 +239,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 For technical support:
 
 - Contact your IT administrator
-- File an issue on the [GitHub repository](your-repo-url)
+- File an issue on the [GitHub repository](https://github.com/jake-hebert/connect-to-salesforce-mcp.git)
 - Check the [Salesforce MCP documentation](https://github.com/tsmztech/mcp-server-salesforce)
 
 ## Related Projects

@@ -12,5 +12,23 @@
     },
     "engines": {
         "node": ">=18.0.0"
-    }
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jake-hebert/connect-to-salesforce-mcp.git"
+    },
+    "bugs": {
+        "url": "https://github.com/jake-hebert/connect-to-salesforce-mcp/issues"
+    },
+    "homepage": "https://github.com/jake-hebert/connect-to-salesforce-mcp#readme",
+    "keywords": [
+        "mcp",
+        "salesforce",
+        "claude",
+        "setup",
+        "cli",
+        "model-context-protocol"
+    ],
+    "author": "Jake Hebert (digitalRupix)",
+    "license": "MIT"
 }
