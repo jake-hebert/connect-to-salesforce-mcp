@@ -1,6 +1,6 @@
 {
     "name": "@digitalrupix/connect-to-salesforce-mcp",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Setup wizard for Salesforce MCP connection",
     "main": "index.js",
     "type": "module",
